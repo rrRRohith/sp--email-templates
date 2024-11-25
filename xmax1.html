@@ -8,25 +8,21 @@
 </head>
 
 <body style="margin: 0;font-family: system-ui;">
-    <div style="overflow: hidden; background-color: #ffffff; max-width: 600px; margin: auto;">
-        <div class="" style="max-width: 600px; margin: auto;position: relative;">
-            <div style="color: #fff;position: absolute; text-align: center; width: 100%; top: 2rem;">
-                <div style="font-size: 2rem;font-weight: 500; font-family: serif;">Order Early For This</div>
-                <div style="font-size: 3rem; font-weight: 600;margin-bottom: 10px; font-family: serif;">Holiday Season</div>
+    <div style="overflow: hidden; background-color: #ffffff; max-width: 600px; margin: auto;padding:15px">
+        <div class="" style="max-width: 600px; overflow-x: hidden; margin: auto;position: relative; background: url('https://res.cloudinary.com/rr6/image/upload/v1732523448/email_template_1C_btfmdv.png');">
+            <div style="color: #fff;text-align: center; width: 100%;height: 820px; ">
+                <div style="font-size: 2rem;font-weight: 500; font-family: serif; margin-top: 2rem; margin-bottom: 0rem; line-height: 1.2;">Order Early For This</div>
+                <div style="font-size: 3rem; font-weight: 600;margin-bottom: 10px; font-family: serif; line-height: 1.2;">Holiday Season</div>
                 <div style="font-size: 1.5rem;">From Sweetie Pie and Save 10%</div>
             </div>
-            <img style="width: 100%;"
-                src="https://res.cloudinary.com/rr6/image/upload/v1732523448/email_template_1C_btfmdv.png" alt="">
-                <div style="padding:4px; background-color: #f591c1; position:absolute; bottom:0; left:0;width: 100%;">
-                    <table style="width: 100%; font-weight: 600;">
+                <div style="padding:4px; background-color: #f591c1; width: 100%; max-width: 600px">
+                    <table style="width: 100%; font-weight: 600; max-width: 600px">
                         <tr>
-                            <td style="vertical-align: middle;">
+                            <td style="vertical-align: middle;" background="">
                                 <table>
                                     <tr>
                                         <td style="vertical-align: middle;">
-                                            <img width="20"
-                                                src="data:image/png;base64,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"
-                                                alt="domain--v1">
+                                            <img width="20" height="20" src="https://img.icons8.com/ios/50/domain--v1.png" alt="domain--v1"/>
                                         </td>
                                         <td style="vertical-align: middle;">
                                             <div style="margin-bottom: 4px;">
@@ -42,15 +38,15 @@
                                 <table>
                                     <tr>
                                         <td style="vertical-align: middle;">
-                                            <img width="20"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJElEQVR4nO2ZTUoDQRBG31LiDbIQ4g3EY2RCQMHzSCTgTXIBN1locops3QVc6gxusigRsjEk0z2TGfuH70Ftu+p1dTUzNAgh2jIF1kAFWOCogBUwaSrxHEHxdiLmTTphkUfhI7KOoFBzxJuPSBlBoeaILx8RSySchC7QJHJA6J02deSA/9jN35txBtwAl8AAGAEPwDKVjrwD1x3U4KRPiR1w6y6B6EUWPgWQgMhdLiJXR/LdAxvgu+FaQUUujuT7aLlWUJEu8zmRCBl3pA3DXEQmuYg85iLykovINkYRn+S9bZJJBHXEdLRq0IygGUEzUodmBM0IvcxImcAnyqePyCoBkdcu/9BCiozxZN7z7XVOPNGQYv96GsPjaLk/Tt6dEELwhx+snvc1Sojn9AAAAABJRU5ErkJggg=="
-                                                alt="facebook--v1">
-                                            <img width="20"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADK0lEQVR4nO2ZO09UQRTHfwUqRB67lksrgrEQBTsfsZOYqHwCQlS+gApS+2iNhFKDX0AxsZLFZ6f2Itio2AoKCBWuOcn/JhMDu3Mfu3NN9p9McrP3nHPn7Jz3QBNN5AK9wAQwDywAG0Alo2WyTGYZGAcO1UOBQeBFhpv2XfPAQBYK7AGmgT8S/AN4AFzQ6ewnO5gsk3kReKhvVfTtKaAlqeAi8FLCfgO3gE4ah07gNrDpnE4hyUlEpvRdphUKR4Ev2ssbYG8c5mkxfgNKhEcJWNae7vsyDcouzZyOkR8cl5lt67kmIpMyn8gb7mhvFqKroteJTo107Ajn5ZNmRkM7vO8CVrTHnmqCJkRk4S8Elp0cYv65E2b0/kY1QWURWSzPqyLDej9XTdCiiNKUB5Z/RoGnwCeVHht6ntU7o9kJQ1LGlDhXw/xN3q5YE1FHAgXagEngp0fpsQrcBFoTfKdDMmyvuyL6UJI4/8Hhfw5cccoYW336bc6he58wT1Vq7TOJIiWZQnTcJz14TjlmnCTpVrJWpM05iVcxayHzk9fifRfTzCpZKzIp+oUkBZ2UiU7GQn8QRYqOY/uY02444wSAYghFRh3HTosof42EUGRWtJdJj6uS9TiEIpFtW4hNiz6fJFcvRdZF2056tEvW+v+uSKdk/fKkb5pWNWe3siMtxkI6+6hPOe2J+ZDht6gkZvSnSY6zTkIshC5RFmNkZRfGs+TT8dVbkVaV4hUVgHGUOQC8zUvR+G8Zv6TaycecPuepjI9Q0r8a8ZcViQ4rz7Trecxx7Ogk6tJYraVodVtViq96trp2dbCvXq3uYgbDh4LC6BP1KetaC/ptJGHvEmv4EHoc5INhn/ZhPPCAzgePtMdreR6Z1oL3yBQnqtglS95wN05XOqBrhU3f8X2DMAhs6Vqh35dpSprb+LKb8Oh25sL34jC2OCZmY/4ThEM/8NVJtLEvRQuOMpu6ZDFnaxS65BNbTruQOP+06M5uW8JWdD9xSQODLNrcCCarT3lixolO2zKnxNfTLo4AzzxKj6xXuV4Bp0d9w5xTfmS1aZP1UaH1OnCwHgo00QTx8Bf0wax6bwlEYQAAAABJRU5ErkJggg=="
-                                                alt="instagram-new--v1">
+                                            <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/facebook--v1.png" alt="facebook--v1"/>
+                                                <img width="20" height="20" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/>
                                         </td>
                                         <td style="vertical-align: middle;">
-                                            <div style="margin-bottom: 4px;">@mysweetiepie.ca</div>
+                                            <div style="margin-bottom: 4px;">
+                                                <a style="color:#000; text-decoration: none;"
+                                                    href="https://www.instagram.com/mysweetiepie.ca/">@mysweetiepie.ca</a>
+                                                
+                                            </div>
                                         </td>
                                     </tr>
                                 </table>
@@ -59,9 +55,7 @@
                                 <table>
                                     <tr>
                                         <td style="vertical-align: middle;">
-                                            <img width="20"
-                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACBUlEQVR4nO2ZQUtUURTHf1NWguimcBqjIFpZLUNchtiuaCMGBkNg9RECP0G0s1aT38CFqJVGMYsKBmFa2ASWUZAErbQZioyo4MmF+zZDM75zH+++8+D94L8cmB/3vnvPORdyclLlKlAHfgCvgVEyxiGgAgRtaQEnyAj9wOp/JMKskAGGgI0uEmHKKKYIfIggYdIESijkMFCLKBFmGYXMCCXCXEcZW44iO8BxFPHTUcRkAUV8jCFicg0lLMQU2UQJt2OK/EIJg8C/GCJrKKIaQ6SsrdINHPIGOIAiCkDDQeQSCpkUSjxCKQXglUBkGsWcA/4IquAzKOaeYFXWgT6UcsT+wagyVfsblZwFdgUyi0APSrklPMXm7IGhkopQZhbFo6EXQpn7WlemCHxy2GYHUcgp4ItQZgnoRSHngW9CmWcd7hmzWjfsKPYv8N6WSN4YsbNgiUyjrQIY63JPPbaDQi+MA7+FMk1bmz2JOJ2Z8tm/SGUCh2+s5EPmosM2k6ZlZwqJcwHYTlgmAJ4CJ32U/l89yLTsYZMopx0uTZfU8TRWknSYLvmOxyeKhwmK1PDMTWE/E0TMZVJgWNhpBvvkASliWuC7goFG0OX4VdGBmiP6paPEW2AARZhma0K43d7ZfkglRugK8NyW8EGHmKP8GBnhqK2K5+2DkXkG/AzcsW12Tg4psAf86ZgqZsaVBAAAAABJRU5ErkJggg=="
-                                                alt="phone">
+                                            <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/phone.png" alt="phone"/>
                                         </td>
                                         <td style="vertical-align: middle;">
                                             <div style="margin-bottom: 4px;">
